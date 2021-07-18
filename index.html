@@ -9,11 +9,16 @@
     <!--ICONES-->
     <link rel="stylesheet" href="assets/fonts/style.css" />
 
+    <!--SWIPER-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
     <!--STYLES-->
     <link rel="stylesheet" href="style.css" />
 
     <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
@@ -135,18 +140,109 @@
           </div>
         </div>
       </section>
+      <div class="divider-1"></div>
 
       <section class="section" id="testimonials">
-        <div class="container grid">Depoimentos</div>
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Animi ut ex sapiente, voluptas adipisci rem omnis facere
+                    magni deserunt possimus numquam nemo iure ad non corporis
+                    laborum voluptatibus amet sit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/76.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Animi ut ex sapiente, voluptas adipisci rem omnis facere
+                    magni deserunt possimus numquam nemo iure ad non corporis
+                    laborum voluptatibus amet sit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/men/46.jpg"
+                      alt="Foto de Leandro Lucas"
+                    />
+                    Leandro Lucas
+                  </cite>
+                </blockquote>
+              </div>
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Animi ut ex sapiente, voluptas adipisci rem omnis facere
+                    magni deserunt possimus numquam nemo iure ad non corporis
+                    laborum voluptatibus amet sit.
+                  </p>
+                  <cite>
+                    <img
+                      src="https://randomuser.me/api/portraits/women/17.jpg"
+                      alt="Foto de Camila da Rosa"
+                    />
+                    Camila da Rosa
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
+      <div class="divider-2"></div>
 
       <section class="section" id="contact">
-        <div class="container grid">Contato</div>
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5548988114917&text=Olá! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i>Entrar em contato</a
+            >
+          </div>
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>48 98811-4917</li>
+              <li><i class="icon-map-pin"></i>R. Angelino de Vargas Vidoto</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
 
+    <!--SWIPER-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--SCROLLREVEAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--MAIN.JS-->
     <script src="main.js"></script>
   </body>
 </html>
